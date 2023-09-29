@@ -25,7 +25,6 @@ import Footer from './components/Footer';
 
 
 const HomePage = () => {
-    const { triger } = useContext(globalContext)
     const [newArrival, setNewArrival] = useState(newArrivalProducts)
     const [couplesData, setCouplesData] = useState(coupleData)
     const [woHalf, setWoHalf] = useState(WomensHalfSleeves)
